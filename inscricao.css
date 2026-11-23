@@ -1,0 +1,63 @@
+.inscricao {
+    margin-top: 56px;
+    display: flex;
+    gap: 72px;
+}
+
+.explicacao {
+    flex: 1;
+}
+
+.explicacao h2 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.explicacao p + p {
+    margin-top: 14px;
+}
+
+.explicacao .aviso {
+    margin-top: 32px;
+    padding: 24px;
+    background-color: var(--fita);
+    font-weight: 600;
+}
+
+.formulario {
+    background-color: white;
+    border: 3px solid var(--tinta);
+    padding: 40px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.linha {
+    display: flex;
+    gap: 24px;
+}
+
+.campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.grupo legend {
+    margin-bottom: 12px;
+}
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
